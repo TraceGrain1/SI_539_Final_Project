@@ -219,14 +219,6 @@ img {
     align-items: center;
 }
 
-.right_side {
-    grid-column: 3 / 4;
-    background-color: #000000;
-    color: #FFFFFF;
-    padding: 15px;
-    border: solid 3px #FFFFFF;
-    overflow: auto;
-}
 
 .main_characters {
     display: grid;
@@ -246,20 +238,6 @@ img {
     background-color: #000000;
 }
 
-.profile_container {
-    position: relative;
-    text-align: center;
-    color: #000000;
-  }
-
-.profile_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #FFFFFF;
-    border: #000000 3px solid;
-}
 
 @media screen and (max-width: 425px) {
     .jumbo {
